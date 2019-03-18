@@ -1,0 +1,6 @@
+运行环境:python2x
+模块:flask、requests
+1
+
+
+PS:只支持中文搜索

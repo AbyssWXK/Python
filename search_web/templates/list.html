@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>歌曲列表</title>
+</head>
+<body>
+<ul>
+    {% for music in list %}
+    <li>
+        <p>
+            歌曲:{{ music['Song'] }}&nbsp&nbsp&nbsp&nbsp
+            歌手:{{ music['Singer'] }}
+            <a href="{{ music['url'] }}">下载</a>
+        </p>
+    </li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
